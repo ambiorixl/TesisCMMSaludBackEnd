@@ -22,7 +22,7 @@ namespace VClinic.Domain.Entities
         public string Nombre { get; set; } = default!;
         public string Descripcion { get; set; } = default!;
         public int IdTipoEquipo { get; set; }
-        public bool EstaActivo { get; set; } = true;
+        public bool EstaActivo { get; set; } = true;    
 
         public void ActualizarEquipamento(int idEquipamento, string nombre, string descripcion, int idTipoEquipo, bool estaActivo)
         {

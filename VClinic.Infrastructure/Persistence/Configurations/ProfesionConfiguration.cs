@@ -22,7 +22,7 @@ namespace VClinic.Infrastructure.Persistence.Configurations
                 .HasMaxLength(50);
 
             builder.Property(c => c.EstaActivo)
-                .IsRequired();          
+                .IsRequired();
         }
     }
 }

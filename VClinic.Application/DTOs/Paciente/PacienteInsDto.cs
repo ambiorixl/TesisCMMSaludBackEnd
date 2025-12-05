@@ -23,3 +23,12 @@ namespace VClinic.Application.DTOs.Paciente
 
 
 
+//ID_TipoSangre Tipo_Completo	Grupo_ABO	Factor_Rh
+//1	A+	A	Positivo
+//2	A-	A	Negativo
+//3	B+	B	Positivo
+//4	B-	B	Negativo
+//5	O+	O	Positivo
+//6	O-	O	Negativo
+//7	AB+	AB	Positivo
+//8	AB-	AB	Negativo

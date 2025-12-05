@@ -36,7 +36,7 @@ namespace VClinic.Application.Services
                     data.IdTipoIdentificacion,
                     data.NumeroIdentificacion,
                     data.IdEstadoCivil,
-                    data.IdGenero,                   
+                    data.IdGenero,
                     data.FechaNacimiento,
                     data.Telefono,
                     data.Celular,

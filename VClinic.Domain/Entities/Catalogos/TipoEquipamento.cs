@@ -17,7 +17,7 @@ namespace VClinic.Domain.Entities.Catalogos
 
         public int IdTipoEquipamento { get; set; }
         public string Nombre { get; set; } = default!;
-        public string Descripcion { get; set; } = default!;
+        public string Descripcion { get; set; } = default!;       
         public bool EstaActivo { get; set; } = true;
 
         public void ActualizarTipoEquipamento(int idTipoEquipamento, string nombre, string descripcion, bool estaActivo)

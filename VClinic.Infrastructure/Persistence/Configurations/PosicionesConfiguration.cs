@@ -28,7 +28,7 @@ namespace VClinic.Infrastructure.Persistence.Configurations
 
             builder.Property(e => e.EstaActivo)
                 .IsRequired()
-                .HasDefaultValue(true);           
+                .HasDefaultValue(true);
         }
 
     }

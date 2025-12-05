@@ -12,7 +12,7 @@ namespace VClinic.Domain.Entities
         public long IdEmpleado { get; set; }
         public long IdPersona { get; set; }
 
-        public string CodigoEmpleado { get; set; } = default!;       
+        public string CodigoEmpleado { get; set; } = default!;
         public bool EstaActivo { get; set; } = true;
 
         public Profesion Profesion { get; set; } = default!;

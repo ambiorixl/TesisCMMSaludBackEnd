@@ -49,7 +49,7 @@ namespace VClinic.Application.DTOs.Persona
 
         [Required(ErrorMessage = "El campo {0} es requerido.")]
         [Display(Name = "estado civil")]
-        public int IdEstadoCivil { get; set; }        
+        public int IdEstadoCivil { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido.")]
         [Display(Name = "genero")]

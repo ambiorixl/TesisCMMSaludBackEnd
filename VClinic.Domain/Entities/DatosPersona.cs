@@ -20,7 +20,7 @@ namespace VClinic.Domain.Entities
         public string NumeroIdentificacion { get; set; } = null!;
         public int IdEstadoCivil { get; set; }
         public int IdGenero { get; set; }
-       
+
         public TipoIdentificacion? TipoIdentificacion { get; set; }
         public EstadoCivil? EstadoCivil { get; set; }
         public Genero? Genero { get; set; }
@@ -44,7 +44,7 @@ namespace VClinic.Domain.Entities
             int tipoIdentificacion,
             string identificacion,
             int idEstadoCivil,
-            int idGenero,            
+            int idGenero,
             DateTime? fechaNacimiento,
             string? telefono,
             string? celular,
@@ -52,7 +52,7 @@ namespace VClinic.Domain.Entities
             string? direccion)
         {            
             IdEstadoCivil = idEstadoCivil;
-            IdGenero = idGenero;           
+            IdGenero = idGenero;
             ActualizarDatosBasicos(nombres, apellidos, fechaNacimiento);
             ActualizarIdentificacion(tipoIdentificacion, identificacion);
             ActualizarContacto(telefono, celular, email, direccion);
@@ -75,7 +75,7 @@ namespace VClinic.Domain.Entities
         {
             IdPersona = idPersona;
             IdEstadoCivil = idEstadoCivil;
-            IdGenero = idGenero;           
+            IdGenero = idGenero;
             ActualizarDatosBasicos(nombres, apellidos, fechaNacimiento);
             ActualizarIdentificacion(tipoIdentificacion, identificacion);
             ActualizarContacto(telefono, celular, email, direccion);

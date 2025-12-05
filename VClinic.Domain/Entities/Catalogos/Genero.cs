@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace VClinic.Domain.Entities.Catalogos
 {
     public class Genero
-    {       
+    {
 
         public Genero(string nombre, string codigo, bool estaActivo)
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace VClinic.Domain.Entities.Catalogos
 {
     public class Posiciones
-    {       
+    {
         public Posiciones(string nombre, int nivel, bool estaActivo)
         {
             Nombre = nombre;            
@@ -16,7 +16,7 @@ namespace VClinic.Domain.Entities.Catalogos
             
         }
 
-        public int IdPosicion { get; set; }       
+        public int IdPosicion { get; set; }
         public string Nombre { get; set; } = null!;
         public int Nivel { get; set; }
         public bool EstaActivo { get; set; } = true;
